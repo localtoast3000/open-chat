@@ -1,4 +1,4 @@
-package com.diday;
+package com.openchat.app;
 
 import android.app.Application;
 import com.facebook.react.PackageList;
