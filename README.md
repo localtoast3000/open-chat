@@ -1,4 +1,4 @@
-## React Native Template
+# React Native Template TS & NativeWind
 
 Welcome to this React Native template, tailored for developers looking to jumpstart their mobile app development journey with the power of TypeScript and the styling capabilities of NativeWind.
 
