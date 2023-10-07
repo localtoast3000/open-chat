@@ -10,11 +10,9 @@ TypeScript brings static typing to JavaScript, enhancing code quality, readabili
 
 NativeWind is a utility-first CSS framework for building custom UI components and layouts in React Native. It brings the power and flexibility of utility-first CSS (like TailwindCSS) to the React Native ecosystem. With NativeWind, you can rapidly prototype and build mobile interfaces with reusable classes.
 
-## React Native Template Scripts
+### Scripts
 
 This React Native template provides a set of utility scripts to streamline your development process. Below is a description of each script:
-
-### Script Descriptions
 
 - **rename-project-win**: 
   - Executes the `rename-project.bat` script located in the `./scripts/shell/` directory.
