@@ -25,8 +25,8 @@ DerivedData
 ios/.xcode.env.local
 
 # Custom application config file
-diday.config.js
-diday.config.ts
+openchat.config.js
+openchat.config.ts
 
 # Android/IntelliJ
 #

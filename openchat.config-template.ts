@@ -2,8 +2,8 @@
 // Ajouté les variable ici, mainApiOrigin c'est l'origin de server express
 // Je ne voulais pas metre mon IP sur Git HUB.
 
-export default () => {
+export default (() => {
   return {
     mainApiOrigin: '',
   };
-};
+})();
