@@ -1,12 +1,12 @@
 {
-  "name": "open_chat",
+  "name": "rn-ts-nwind-template",
   "version": "0.0.1",
   "private": true,
   "scripts": {
     "rename-project-win": "./scripts/shell/rename-project.bat",
     "rename-project-unix": "chmod +x ./scripts/shell/rename-project.sh && ./scripts/shell/rename-project.sh",
     "clean-android": "cd android && ./gradlew clean && cd .. && rm -rf node_modules && yarn install",
-    "clean-ios": "watchman watch-del-all && rm -rf ios/build && rm -rf node_modules && yarn install && cd ios && pod install && cd ..",
+    "clean-ios": "watchman watch-del-all && rm -rf ios/build && cd ios && pod install && cd .. && rm -rf node_modules && yarn install",
     "exports-gen": "node scripts/js/exports-generator src/pages src/components/graphics/icons src/components/layouts src/components/pressables src/components/text",
     "type-check": "yarn tsc",
     "link-assets": "react-native-asset",

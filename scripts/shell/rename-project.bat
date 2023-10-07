@@ -7,5 +7,14 @@ IF "%1"=="" (
 
 SET PROJECT_NAME=%1
 
-git checkout -b %PROJECT_NAME%
 npx react-native-rename@latest %PROJECT_NAME%
+watchman watch-del-all
+rm -rf ios/build
+cd ios
+pod install
+cd ..
+cd android
+./gradlew clean
+cd ..
+rm -rf node_modules
+yarn install

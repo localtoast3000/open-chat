@@ -1,5 +1,5 @@
 import BasicHttpRequests from '../base';
-import config from '@root/openchat.config';
+import config from '@root/app.config';
 
 export default (() => {
   return {

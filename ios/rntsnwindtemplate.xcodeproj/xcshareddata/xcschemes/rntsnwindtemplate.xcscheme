@@ -15,9 +15,9 @@
             <BuildableReference
                BuildableIdentifier = "primary"
                BlueprintIdentifier = "13B07F861A680F5B00A75B9A"
-               BuildableName = "openchat.app"
-               BlueprintName = "openchat"
-               ReferencedContainer = "container:openchat.xcodeproj">
+               BuildableName = "rntsnwindtemplate.app"
+               BlueprintName = "rntsnwindtemplate"
+               ReferencedContainer = "container:rntsnwindtemplate.xcodeproj">
             </BuildableReference>
          </BuildActionEntry>
       </BuildActionEntries>
@@ -33,9 +33,9 @@
             <BuildableReference
                BuildableIdentifier = "primary"
                BlueprintIdentifier = "00E356ED1AD99517003FC87E"
-               BuildableName = "openchatTests.xctest"
-               BlueprintName = "openchatTests"
-               ReferencedContainer = "container:openchat.xcodeproj">
+               BuildableName = "rntsnwindtemplateTests.xctest"
+               BlueprintName = "rntsnwindtemplateTests"
+               ReferencedContainer = "container:rntsnwindtemplate.xcodeproj">
             </BuildableReference>
          </TestableReference>
       </Testables>
@@ -55,9 +55,9 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "13B07F861A680F5B00A75B9A"
-            BuildableName = "openchat.app"
-            BlueprintName = "openchat"
-            ReferencedContainer = "container:openchat.xcodeproj">
+            BuildableName = "rntsnwindtemplate.app"
+            BlueprintName = "rntsnwindtemplate"
+            ReferencedContainer = "container:rntsnwindtemplate.xcodeproj">
          </BuildableReference>
       </BuildableProductRunnable>
    </LaunchAction>
@@ -72,9 +72,9 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "13B07F861A680F5B00A75B9A"
-            BuildableName = "openchat.app"
-            BlueprintName = "openchat"
-            ReferencedContainer = "container:openchat.xcodeproj">
+            BuildableName = "rntsnwindtemplate.app"
+            BlueprintName = "rntsnwindtemplate"
+            ReferencedContainer = "container:rntsnwindtemplate.xcodeproj">
          </BuildableReference>
       </BuildableProductRunnable>
    </ProfileAction>
