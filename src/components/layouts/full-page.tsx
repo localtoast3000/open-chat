@@ -20,7 +20,7 @@ export default function FullPageLayout({
           </ScrollView>
         </SafeAreaView>
       ) : (
-        <SafeAreaView className='flex-1'>
+        <SafeAreaView className='flex flex-1'>
           <View className='flex-1 p-[30px] font-body-400 text-dark'>{children}</View>
         </SafeAreaView>
       )}

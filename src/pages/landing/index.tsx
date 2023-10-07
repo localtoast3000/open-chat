@@ -8,8 +8,8 @@ import { AppNavigation } from '@/navigation/types';
 export default function Landing({ navigation }: AppNavigation<'landing'>) {
   return (
     <FullPageLayout scrollable={false}>
-      <H1 className='text-first w-full text-center mb-[50px]'>DiDAY</H1>
-      <ChatIcon className='h-[400px] mb-[30px]' />
+      <H1 className='text-first w-full text-center mb-[20px]'>Open Chat</H1>
+      <ChatIcon className='h-[300px] mb-[30px]' />
       <Button
         label='Sign Up'
         onPress={() => navigation.push('sign-up')}
