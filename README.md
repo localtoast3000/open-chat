@@ -67,29 +67,27 @@ This React Native template provides a set of utility scripts to streamline your 
 
 ## Exports Generator CLI Utility
 
- * class ExportsGenerator
- * Searches for all ES6 export default modules within the given directory
- * and generates an exports directory with an index file containing
- * all export statements of the default exports at the same directory.
- * Support for JavaScript and TypeScript.
- *-  <-------------------------------------------------------->
- *-   Example 1:
- *-  <-------------------------------------------------------->
- *-  Result at given directory path /directory
- *-    -- + /directory-1
- *-    ------ module-1.ts
- *-    ------ module-2.ts
- *-    ------ module-3.ts
- *-    ------  + /exports
- *-    ----------- index.ts
- *-  Content in index.ts:
- *-  -------- export { default as Module1 } from '../module-1'
- *-  -------- export { default as Module2 } from '../module-2'
- *-  -------- export { default as Module3 } from '../module-3'
- *-  <-------------------------------------------------------->
- *-  Example 2:
- *-  <-------------------------------------------------------->
- *-  Result at given directory path /directory
+- class ExportsGenerator
+- Searches for all ES6 export default modules within the given directory
+- and generates an exports directory with an index file containing
+- all export statements of the default exports at the same directory.
+- Support for JavaScript and TypeScript.
+  
+####   Example 1:
+ - Result at given directory path /directory
+ -    + /directory-1
+ -         module-1.ts
+ -         module-2.ts
+ -         module-3.ts
+ -           + /exports
+ -             index.ts
+ -  Content in index.ts:
+ -  export { default as Module1 } from '../module-1'
+ -  export { default as Module2 } from '../module-2' e
+ -  export { default as Module3 } from '../module-3'
+
+ ####  Example 2:
+ -  Result at given directory path /directory
  *-    -- + /directory-2
  *-    ------ + /module-1
  *-    ---------- index.jsx
